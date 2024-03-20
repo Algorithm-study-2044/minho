@@ -17,7 +17,7 @@ class Solution:
     ## Time Limit Exceeded
 
 
-# 2.
+# 2. 1)max부터 오른쪽, 2)다시 왼쪽 
 class Solution:
     def maxFrequency(self, nums: List[int], k: int) -> int:
         nums.sort()
