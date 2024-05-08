@@ -9,7 +9,7 @@ class Solution:
             graph[equations[0]].append((equations[1], values[i]))
             graph[equations[1]].append((equations[0], 1/values[i]))
         print(graph)
-        
+    
         def dfs(node, target):
             if node in visited:
                 return -1
